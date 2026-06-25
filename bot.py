@@ -1,3 +1,6 @@
+@app.route("/")
+def home():
+    return "TEST 123"
 import os
 import requests
 from flask import Flask, request
