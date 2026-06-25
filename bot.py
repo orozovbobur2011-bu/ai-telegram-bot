@@ -1,8 +1,3 @@
-app = Flask(__name__)
-bot_app = Application.builder().token(TOKEN).build()
-@app.route("/")
-def home():
-    return "TEST 123"
 import os
 import requests
 from flask import Flask, request
